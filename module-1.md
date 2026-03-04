@@ -7,11 +7,7 @@
 
 ### Step 1
 
-From the desktop, launch Firefox.
-
-This will open with the sign in screen for Run:ai
-
-<img alt="module-1-image-01" src="" />
+From your web browser, navigate to the [runai](https://runai.jp-isv.sg-cna.com/) lab.
 
 <br/>
 
@@ -41,7 +37,10 @@ Now click **"Nodes"**. You will see the GPU nodes that are registered to the Run
 
 <br/>
 
-Here you will see the GPU nodes. Please note these GPUs are _**fake**_ and you will not be able to run real GPU workloads.
+Here you will see the GPU nodes.
+
+> [!NOTE]
+> Please note these GPUs are _**fake**_ and you will not be able to run real GPU workloads.
 
 <br/>
 
@@ -55,8 +54,6 @@ Here you will see the GPU nodes. Please note these GPUs are _**fake**_ and you w
 
 > [!NOTE]
 > In this lesson we will learn about Departments and configuring their Quota.
-
-
 
 ### Step 5
 
