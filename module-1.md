@@ -153,21 +153,19 @@ Name the project **"project-xx"** where `xx` is your student ID.
 
 ### Step 17
 
-Next select the GPU devices option and set it to **"1"**. 
-
-You can see this quota is coming out of the parent department's quota.
+Next select the GPU devices option and set it to **"0.25"**. You can see this quota is coming out of the parent department's quota.
 
 <img alt="module-1-image-21" src="" />
 
-### Step 18
+<img alt="module-1-image-22" src="" />
 
 Click **"Apply"**.
 
-<img alt="module-1-image-22" src="" />
+<img alt="module-1-image-23" src="" />
 
-### Step 19
+### Step 18
 
 Click **"Create Project"**.
 
-<img alt="module-1-image-23" src="" />
+<img alt="module-1-image-24" src="" />
 
