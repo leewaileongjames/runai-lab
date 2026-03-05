@@ -15,7 +15,7 @@ From your web browser, navigate to the [runai](https://runai.jp-isv.sg-cna.com/)
 
 Login using the credentials provided to you.
 
-<img alt="module-1-image-02" src="" />
+<img alt="module-1-image-02" src="https://github.com/leewaileongjames/runai-lab/blob/main/images/module-1-image-02.png" />
 
 <br/>
 
@@ -23,7 +23,7 @@ Login using the credentials provided to you.
 
 Click **Resources**.
 
-<img alt="module-1-image-03" src="" />
+<img alt="module-1-image-03" src="https://github.com/leewaileongjames/runai-lab/blob/main/images/module-1-image-03.png" />
 
 <br/>
 
@@ -31,9 +31,9 @@ Click **Resources**.
 
 Now click **"Nodes"**. You will see the GPU nodes that are registered to the Run:ai cluster.
 
-<img alt="module-1-image-04" src="" />
+<img alt="module-1-image-04" src="https://github.com/leewaileongjames/runai-lab/blob/main/images/module-1-image-04.png" />
 
-<img alt="module-1-image-05" src="" />
+<img alt="module-1-image-05" src="https://github.com/leewaileongjames/runai-lab/blob/main/images/module-1-image-05.png" />
 
 <br/>
 
@@ -59,25 +59,25 @@ Here you will see the GPU nodes.
 
 Click **"Organization"**.
 
-<img alt="module-1-image-06" src="" />
+<img alt="module-1-image-06" src="https://github.com/leewaileongjames/runai-lab/blob/main/images/module-1-image-06.png" />
 
 ### Step 6
 
 Click **"Departments"**. A department is the top hierarchical level within a cluster.
 
-<img alt="module-1-image-07" src="" />
+<img alt="module-1-image-07" src="https://github.com/leewaileongjames/runai-lab/blob/main/images/module-1-image-07.png" />
 
 ### Step 7
 
 Select **"department-xx"**. `xx` is your student ID.
 
-<img alt="module-1-image-08" src="" />
+<img alt="module-1-image-08" src="https://github.com/leewaileongjames/runai-lab/blob/main/images/module-1-image-08.png" />
 
 ### Step 8
 
 Click **"Edit"**.
 
-<img alt="module-1-image-09" src="" />
+<img alt="module-1-image-09" src="https://github.com/leewaileongjames/runai-lab/blob/main/images/module-1-image-09.png" />
 
 ### Step 9
 
@@ -85,29 +85,29 @@ A Department allows you to configure a resource quota (GPU/CPU/Memory) which is 
 
 Now select the `GPU Devices` field.
 
-<img alt="module-1-image-10" src="" />
+<img alt="module-1-image-10" src="https://github.com/leewaileongjames/runai-lab/blob/main/images/module-1-image-10.png" />
 
 Set it to "0.5".
 
-<img alt="module-1-image-11" src="" />
+<img alt="module-1-image-11" src="https://github.com/leewaileongjames/runai-lab/blob/main/images/module-1-image-11.png" />
 
 ### Step 10 
 
 Click "Apply".
 
-<img alt="module-1-image-12" src="" />
+<img alt="module-1-image-12" src="https://github.com/leewaileongjames/runai-lab/blob/main/images/module-1-image-12.png" />
 
 ### Step 11 
 
 Ensure that department over quota is _**disabled**_.
 
-<img alt="module-1-image-13" src="" />
+<img alt="module-1-image-13" src="https://github.com/leewaileongjames/runai-lab/blob/main/images/module-1-image-13.png" />
 
 ### Step 12 
 
 Click "SAVE".
 
-<img alt="module-1-image-14" src="" />
+<img alt="module-1-image-14" src="https://github.com/leewaileongjames/runai-lab/blob/main/images/module-1-image-14.png" />
 
 > [!TIP]
 > No workloads run directly in a Department, this is a hierarchal level for permissions and quota only, a bit like a resource pool.
@@ -123,7 +123,7 @@ Click "SAVE".
 
 Select **"Projects"**.
 
-<img alt="module-1-image-15" src="" />
+<img alt="module-1-image-15" src="https://github.com/leewaileongjames/runai-lab/blob/main/images/module-1-image-15.png" />
 
 ### Step 14
 
@@ -131,41 +131,41 @@ A **Project** is a child of a **Department** and where workloads actually run.
 
 Click **"New Project"**.
 
-<img alt="module-1-image-16" src="" />
+<img alt="module-1-image-16" src="https://github.com/leewaileongjames/runai-lab/blob/main/images/module-1-image-16.png" />
 
 ### Step 15 
 
 Ensure that the project is assigned to your department (`department-xx`). 
 
-<img alt="module-1-image-17" src="" />
+<img alt="module-1-image-17" src="https://github.com/leewaileongjames/runai-lab/blob/main/images/module-1-image-17.png" />
 
-<img alt="module-1-image-18" src="" />
+<img alt="module-1-image-18" src="https://github.com/leewaileongjames/runai-lab/blob/main/images/module-1-image-18.png" />
 
 Click **"Apply"**.
 
-<img alt="module-1-image-19" src="" />
+<img alt="module-1-image-19" src="https://github.com/leewaileongjames/runai-lab/blob/main/images/module-1-image-19.png" />
 
 ### Step 16
 
 Name the project **"project-xx"** where `xx` is your student ID.
 
-<img alt="module-1-image-20" src="" />
+<img alt="module-1-image-20" src="https://github.com/leewaileongjames/runai-lab/blob/main/images/module-1-image-20.png" />
 
 ### Step 17
 
 Next select the GPU devices option and set it to **"0.25"**. You can see this quota is coming out of the parent department's quota.
 
-<img alt="module-1-image-21" src="" />
+<img alt="module-1-image-21" src="https://github.com/leewaileongjames/runai-lab/blob/main/images/module-1-image-21.png" />
 
-<img alt="module-1-image-22" src="" />
+<img alt="module-1-image-22" src="https://github.com/leewaileongjames/runai-lab/blob/main/images/module-1-image-22.png" />
 
 Click **"Apply"**.
 
-<img alt="module-1-image-23" src="" />
+<img alt="module-1-image-23" src="https://github.com/leewaileongjames/runai-lab/blob/main/images/module-1-image-23.png" />
 
 ### Step 18
 
 Click **"Create Project"**.
 
-<img alt="module-1-image-24" src="" />
+<img alt="module-1-image-24" src="https://github.com/leewaileongjames/runai-lab/blob/main/images/module-1-image-24.png" />
 
