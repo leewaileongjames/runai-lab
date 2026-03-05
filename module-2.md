@@ -26,7 +26,7 @@ An Environment is built around a _**container image**_. Any accessible container
 
 ### Step 3
 
-Select the jupyter-example environment.
+Select the **"jupyter-example"** environment.
 
 <img alt="module-2-image-03" src="https://github.com/leewaileongjames/runai-lab/blob/main/images/module-2-image-03.png" />
 
@@ -42,7 +42,7 @@ You can set the container image being used in the environment here.
 
 ### Step 5
 
-Expand the **"Tools"** section.
+Expand the **"Tools"** section. _Do not make any changes, we will just view the configuration._
 
 <img alt="module-2-image-06" src="https://github.com/leewaileongjames/runai-lab/blob/main/images/module-2-image-06.png" />
 
@@ -50,7 +50,7 @@ The tools section is for configuring the ingress rules NVIDIA Run:ai will create
 
 ### Step 6 
 
-Now expand the **"Runtime settings"**.
+Now expand the **"Runtime settings"**. _Do not make any changes, we will just view the configuration._
 
 <img alt="module-2-image-07" src="https://github.com/leewaileongjames/runai-lab/blob/main/images/module-2-image-07.png" />
 
@@ -83,17 +83,19 @@ Select the **"small-fraction"** resource.
 
 <img alt="module-2-image-10" src="https://github.com/leewaileongjames/runai-lab/blob/main/images/module-2-image-10.png" />
 
-Click "Edit". _Do not make any changes, we will just view the configuration._
+Click **"Edit".** _Do not make any changes, we will just view the configuration._
 
 <img alt="module-2-image-11" src="https://github.com/leewaileongjames/runai-lab/blob/main/images/module-2-image-11.png" />
 
 Here you can see you can configure the amount of gpu, cpu and memory. For the GPU, when 1 device request is set, you can configure a percentage of the GPU. This allows you to _**run multiple workloads on a single GPU**_ and can be very efficient for interactive IDE environments in particular.
 
+<img alt="module-2-image-12" src="https://github.com/leewaileongjames/runai-lab/blob/main/images/module-2-image-12.png" />
+
 ### Step 10
 
-Scroll down and click **"cancel"**.
+Scroll down and click **"Cancel"**.
 
-<img alt="module-2-image-12" src="https://github.com/leewaileongjames/runai-lab/blob/main/images/module-2-image-12.png" />
+<img alt="module-2-image-13" src="https://github.com/leewaileongjames/runai-lab/blob/main/images/module-2-image-13.png" />
 
 ## Lesson 3: Data Source Asset
 
@@ -104,13 +106,13 @@ Scroll down and click **"cancel"**.
 
 Select **"Data sources"**.
 
-<img alt="module-2-image-13" src="https://github.com/leewaileongjames/runai-lab/blob/main/images/module-2-image-13.png" />
+<img alt="module-2-image-14" src="https://github.com/leewaileongjames/runai-lab/blob/main/images/module-2-image-14.png" />
 
 ### Step 12
 
-Click **"new data source"**.
+Click **"NEW DATA SOURCE"**.
 
-<img alt="module-2-image-14" src="https://github.com/leewaileongjames/runai-lab/blob/main/images/module-2-image-14.png" />
+<img alt="module-2-image-15" src="https://github.com/leewaileongjames/runai-lab/blob/main/images/module-2-image-15.png" />
 
 Here you can see all the different types of data sources you can add. 
 
@@ -118,57 +120,63 @@ Here you can see all the different types of data sources you can add.
 
 Select **"Git"**.
 
-<img alt="module-2-image-15" src="https://github.com/leewaileongjames/runai-lab/blob/main/images/module-2-image-15.png" />
+<img alt="module-2-image-16" src="https://github.com/leewaileongjames/runai-lab/blob/main/images/module-2-image-16.png" />
 
 ### Step 14
 
 Click the **blue logo** next to the scope section here.
 
-<img alt="module-2-image-16" src="https://github.com/leewaileongjames/runai-lab/blob/main/images/module-2-image-16.png" />
-
-Select your project.
-
 <img alt="module-2-image-17" src="https://github.com/leewaileongjames/runai-lab/blob/main/images/module-2-image-17.png" />
+
+Select your department.
+
+<img alt="module-2-image-18" src="https://github.com/leewaileongjames/runai-lab/blob/main/images/module-2-image-18.png" />
 
 ### Step 15
 
 Click **"Apply"**.
 
-<img alt="module-2-image-18" src="https://github.com/leewaileongjames/runai-lab/blob/main/images/module-2-image-18.png" />
+<img alt="module-2-image-19" src="https://github.com/leewaileongjames/runai-lab/blob/main/images/module-2-image-19.png" />
 
 ### Step 16
 
-Give the data source a **name**.
+Give the data source a **name**. 
 
-<img alt="module-2-image-19" src="https://github.com/leewaileongjames/runai-lab/blob/main/images/module-2-image-19.png" />
+<img alt="module-2-image-20" src="https://github.com/leewaileongjames/runai-lab/blob/main/images/module-2-image-20.png" />
 
 ### Step 17
 
 For the **"Repository URL"** field add `https://github.com/NVIDIA/GenerativeAIExamples.git`
 
-<img alt="module-2-image-20" src="https://github.com/leewaileongjames/runai-lab/blob/main/images/module-2-image-20.png" />
+<img alt="module-2-image-21" src="https://github.com/leewaileongjames/runai-lab/blob/main/images/module-2-image-21.png" />
 
-### Step 18 
+### Step 18
+
+For the **"Revision (branch, tag or hash)"**, and type **"main"**.
+
+<img alt="module-2-image-22" src="https://github.com/leewaileongjames/runai-lab/blob/main/images/module-2-image-22.png" />
+
+### Step 19 
 
 Expand the **"Credentials"** field.
 
-<img alt="module-2-image-21" src="https://github.com/leewaileongjames/runai-lab/blob/main/images/module-2-image-21.png" />
+<img alt="module-2-image-23" src="https://github.com/leewaileongjames/runai-lab/blob/main/images/module-2-image-23.png" />
 
 Select "None".
 
-<img alt="module-2-image-22" src="https://github.com/leewaileongjames/runai-lab/blob/main/images/module-2-image-22.png" />
+<img alt="module-2-image-24" src="https://github.com/leewaileongjames/runai-lab/blob/main/images/module-2-image-24.png" />
 
 ### Step 19
 
 Click the **"Container path"** field and Type `/home/jovyan/github`
 
-<img alt="module-2-image-23" src="https://github.com/leewaileongjames/runai-lab/blob/main/images/module-2-image-23.png" />
+<img alt="module-2-image-25" src="https://github.com/leewaileongjames/runai-lab/blob/main/images/module-2-image-25.png" />
 
 ### Step 20
 
 Click **"create data source"**.
 
-<img alt="module-2-image-23" src="https://github.com/leewaileongjames/runai-lab/blob/main/images/module-2-image-24.png" />
+<img alt="module-2-image-26" src="https://github.com/leewaileongjames/runai-lab/blob/main/images/module-2-image-26.png" />
 
 > [!TIP]
 > We will be using this data source in **Module 3**.
