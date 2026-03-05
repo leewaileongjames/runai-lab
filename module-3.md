@@ -30,7 +30,7 @@ Ensure your project is selected.
 
 ### Step 5 
 
-Give the workspace a name. For example, **"workspace-01"**.
+Give the workspace a name. For example, **jupyter-notebook"**.
 
 <img alt="module-3-image-05" src="https://github.com/leewaileongjames/runai-lab/blob/main/images/module-3-image-05.png" />
 
@@ -102,19 +102,19 @@ Feel free to explore other tabs.
 
 ### Step 15 
 
-Click the "X" to close the window.
+Wait for the status to be "Running". Click **"Connect"**.
 
 <img alt="module-3-image-15" src="https://github.com/leewaileongjames/runai-lab/blob/main/images/module-3-image-15.png" />
 
 ### Step 16 
 
-Now, make sure your workload is selected and running and click **"connect"**.
+Click **"Jupyter"**.
 
 <img alt="module-3-image-16" src="https://github.com/leewaileongjames/runai-lab/blob/main/images/module-3-image-16.png" />
 
 ### Step 17 
 
-Click **"Jupyter"**.
+If required, please sign in using your credentials.
 
 <img alt="module-3-image-17" src="https://github.com/leewaileongjames/runai-lab/blob/main/images/module-3-image-17.png" />
 
@@ -128,10 +128,10 @@ Select **"terminal"**.
 
 ### Step 19 
 
-Type **"nvidia-smi"**. This will show the GPU config. 
+Type `nvidia-smi`. This will show the GPU config. 
 
 > [!IMPORTANT]
-> You can see we are only seeing 10% of the H200 80GB GPUs memory.
+> You can see we are only seeing 10% of the H100 80GB GPUs memory.
 
 <img alt="module-3-image-19" src="https://github.com/leewaileongjames/runai-lab/blob/main/images/module-3-image-19.png" />
 
@@ -148,3 +148,5 @@ Double-click **"GenerativeAIExamples.git"**.
 Within here you will see the contents of the github repo we set in the data source we created earlier have been copied over ready to work with.
 
 <img alt="module-3-image-21" src="https://github.com/leewaileongjames/runai-lab/blob/main/images/module-3-image-21.png" />
+
+
