@@ -69,7 +69,7 @@ Click **"Departments"**. A department is the top hierarchical level within a clu
 
 ### Step 7
 
-Select the **"default"** department.
+Select **"department-xx"**. `xx` is your student ID.
 
 <img alt="module-1-image-08" src="" />
 
@@ -83,21 +83,31 @@ Click **"Edit"**.
 
 A Department allows you to configure a resource quota (GPU/CPU/Memory) which is a guaranteed amount of resource when it needs it. However with NVIDIA Run:ai's over-quota option, another Department can utilise this resource if you are not, until you need access to it again. This ensures high utilization across the cluster and faster job completion. 
 
-Now select the GPU Devices field and set it to "2".
+Now select the `GPU Devices` field.
 
 <img alt="module-1-image-10" src="" />
+
+Set it to "0.5".
+
+<img alt="module-1-image-11" src="" />
 
 ### Step 10 
 
 Click "Apply".
 
-<img alt="module-1-image-11" src="" />
+<img alt="module-1-image-12" src="" />
 
 ### Step 11 
 
+Ensure that department over quota is _**disabled**_.
+
+<img alt="module-1-image-13" src="" />
+
+### Step 12 
+
 Click "SAVE".
 
-<img alt="module-1-image-12" src="" />
+<img alt="module-1-image-14" src="" />
 
 > [!TIP]
 > No workloads run directly in a Department, this is a hierarchal level for permissions and quota only, a bit like a resource pool.
@@ -109,45 +119,55 @@ Click "SAVE".
 > [!NOTE]
 > In this lesson you will create a project and configure it with a quota.
 
-### Step 12 
+### Step 13 
 
 Select **"Projects"**.
 
-<img alt="module-1-image-13" src="" />
+<img alt="module-1-image-15" src="" />
 
-### Step 13
+### Step 14
 
 A **Project** is a child of a **Department** and where workloads actually run. 
 
 Click **"New Project"**.
 
-<img alt="module-1-image-14" src="" />
+<img alt="module-1-image-16" src="" />
 
-### Step 14 
+### Step 15 
 
-You can see here that as we only have one department, **default** is automatically selected as the project parent. 
+Ensure that the project is assigned to your department (`department-xx`). 
 
-Give the project a name.
+<img alt="module-1-image-17" src="" />
 
-<img alt="module-1-image-15" src="" />
+<img alt="module-1-image-18" src="" />
 
-### Step 15
+Click **"Apply"**.
+
+<img alt="module-1-image-19" src="" />
+
+### Step 16
+
+Name the project **"project-xx"** where `xx` is your student ID.
+
+<img alt="module-1-image-20" src="" />
+
+### Step 17
 
 Next select the GPU devices option and set it to **"1"**. 
 
 You can see this quota is coming out of the parent department's quota.
 
-<img alt="module-1-image-16" src="" />
+<img alt="module-1-image-21" src="" />
 
-### Step 16
+### Step 18
 
 Click **"Apply"**.
 
-<img alt="module-1-image-17" src="" />
+<img alt="module-1-image-22" src="" />
 
-### Step 17
+### Step 19
 
 Click **"Create Project"**.
 
-<img alt="module-1-image-18" src="" />
+<img alt="module-1-image-23" src="" />
 
