@@ -145,8 +145,10 @@ Now Double-click the **"github"** folder.
 
 Double-click **"GenerativeAIExamples.git"**. 
 
+<img alt="module-3-image-21" src="https://github.com/leewaileongjames/runai-lab/blob/main/images/module-3-image-21.png" />
+
 Within here you will see the contents of the github repo we set in the data source we created earlier have been copied over ready to work with.
 
-<img alt="module-3-image-21" src="https://github.com/leewaileongjames/runai-lab/blob/main/images/module-3-image-21.png" />
+<img alt="module-3-image-22" src="https://github.com/leewaileongjames/runai-lab/blob/main/images/module-3-image-22.png" />
 
 
